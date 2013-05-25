@@ -8,11 +8,7 @@
 
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-41218670-1']);
-      <% if @next_monday  %>
-        _gaq.push(['_setDomainName', '<%= @next_monday.country %>.ismondayabankholiday.com']);
-      <% else %>
-        _gaq.push(['_setDomainName', 'ismondayabankholiday.com']);
-      <% end  %>
+      _gaq.push(['_setDomainName', 'ismondayabankholiday.com']);
       _gaq.push(['_trackPageview']);
 
       (function() {
