@@ -39,6 +39,9 @@
     :datetime_field: 2013-08-05
     :description: "Summer bank holiday"
    -
+    :datetime_field: 2013-12-02
+    :description: "substitute for St. Andrew's Day"
+   -
     :datetime_field: 2014-05-05
     :description: "Early May bank holiday"
    -
@@ -47,6 +50,9 @@
    -
     :datetime_field: 2014-08-04
     :description: "Summer bank holiday"
+   -
+    :datetime_field: 2013-12-01
+    :description: "substitute for St. Andrew's Day"
    -
     :datetime_field: 2015-05-04
     :description: "Early May bank holiday"
@@ -61,4 +67,4 @@
     :description: "St. Andrew's Day"
    -
     :datetime_field: 2015-12-28
-    :description: "Boxing Day"
+    :description: "substitute for Boxing Day"
