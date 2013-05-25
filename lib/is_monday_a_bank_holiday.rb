@@ -14,5 +14,11 @@ module IsMondayABankHoliday
 
       erb :index
     end
+
+    get '/:country' do |country|
+      @next_monday = NextMonday.new(country.to_sym)
+
+      erb :index
+    end
   end
 end
