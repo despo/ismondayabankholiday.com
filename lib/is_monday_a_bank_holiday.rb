@@ -7,10 +7,16 @@ module IsMondayABankHoliday
   class App < Sinatra::Base
 
     set :views, "#{Dir.pwd}/views"
-    set :public, "#{Dir.pwd}/public"
+    set :public_dir, "#{Dir.pwd}/public"
 
     get '/' do
       @next_monday = NextMonday.new
+
+      erb :index
+    end
+
+    get '/wales' do
+      @next_monday = NextMonday.new(:england)
 
       erb :index
     end
