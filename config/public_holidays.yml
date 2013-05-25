@@ -68,3 +68,32 @@
    -
     :datetime_field: 2015-12-28
     :description: "substitute for Boxing Day"
+
+  :cyprus:
+   -
+    :datetime_field: 2013-06-24
+    :description: "Whit Monday (Κατακλυσμός)"
+   -
+    :datetime_field: 2013-10-28
+    :description: "Greek National day (Μέρα του ΟΧΙ)"
+   -
+    :datetime_field: 2014-01-06
+    :description: "Epophany (Φώτα)"
+   -
+    :datetime_field: 2014-03-03
+    :description: "Green Monday (Καθαρά Δευτέρα)"
+   -
+    :datetime_field: 2014-04-12
+    :description: "Orthodox Easter Monday (Δευτέρα του Πάσχα)"
+   -
+    :datetime_field: 2014-06-09
+    :description: "Whit Monday (Κατακλυσμός)"
+   -
+    :datetime_field: 2015-02-23
+    :description: "Green Monday (Καθαρά Δευτέρα)"
+   -
+    :datetime_field: 2015-04-13
+    :description: "Orthodox Easter Monday (Δευτέρα του Πάσχα)"
+   -
+    :datetime_field: 2015-06-01
+    :description: "Whit Monday (Κατακλυσμός)"
