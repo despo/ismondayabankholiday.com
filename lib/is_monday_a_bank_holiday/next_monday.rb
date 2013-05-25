@@ -38,7 +38,7 @@ module IsMondayABankHoliday
     end
 
     def format_date date
-      "#{date.strftime("%A")} the #{ordinalize(date.day)} of  #{date.strftime("%b %Y")}"
+      "#{date.strftime("%A")} the #{ordinalize(date.day)} of  #{date.strftime("%B %Y")}"
     end
 
     def ordinalize day
