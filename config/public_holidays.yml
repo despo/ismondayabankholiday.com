@@ -1,0 +1,32 @@
+:bank_holiday_mondays:
+  :england:
+   -
+    :datetime_field: 2013-05-27
+    :description: "Spring bank holiday"
+   -
+    :datetime_field: 2013-08-26
+    :description: "Summer bank holiday"
+   -
+    :datetime_field: 2014-04-21
+    :description: "Easter Monday"
+   -
+    :datetime_field: 2014-05-05
+    :description: "Early May bank holiday"
+   -
+    :datetime_field: 2014-05-26
+    :description: "Spring bank holiday"
+   -
+    :datetime_field: 2014-08-25
+    :description: "Summer bank holiday"
+   -
+    :datetime_field: 2015-04-06
+    :description: "Easter Monday"
+   -
+    :datetime_field: 2015-05-04
+    :description: "Early May bank holiday"
+   -
+    :datetime_field: 2015-05-25
+    :description: "Spring bank holiday"
+   -
+    :datetime_field: 2015-12-28
+    :description: "Boxing Day"
