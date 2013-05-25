@@ -1,6 +1,7 @@
 module IsMondayABankHoliday
   class NextMonday
 
+    attr_accessor :country
     def initialize country=:england
       @country = country
     end
