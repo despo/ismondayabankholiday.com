@@ -26,13 +26,13 @@
 
      <p>
      <% if @next_monday.is_bank_holiday? %>
-       <span class="answer"> Yes </span>
+       <span class="answer">Yes</span>
        <br>
        <span class="details">
          <b><%= @next_monday.date %></b> is <%= @next_monday.description %>.
        </span>
      <% else %>
-       <span class="answer"> No </span>
+       <span class="answer">No</span>
        <br>
        <span class="details">
          the next bank holiday is <b><%= @next_monday.date %></b>, <%= @next_monday.description %>.

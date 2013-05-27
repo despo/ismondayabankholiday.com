@@ -21,7 +21,7 @@ module IsMondayABankHoliday
     private
 
     def next_holiday
-      @next_holiday ||= country_data.select { |entry| entry[:datetime_field] >= Date.today }.first
+      @next_holiday ||= country_data.select { |entry| entry[:datetime_field] > Date.today }.first
     end
 
     def data
