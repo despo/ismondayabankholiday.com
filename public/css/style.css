@@ -28,3 +28,20 @@ footer {
   margin-top: 100px;
   position: relative;
 }
+
+.madeby {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-family: 'Lobster', cursive;
+}
+
+.madeby a {
+  text-decoration: none;
+  color: hotpink;
+  font-size: 1.2em;
+}
+
+.madeby a:hover {
+  color: red;
+}
