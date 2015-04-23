@@ -10,6 +10,7 @@ module IsMondayABankHoliday
     set :public_dir, "#{Dir.pwd}/public"
 
     get '/' do
+      @country = :england
       @next_monday = NextMonday.new
 
       erb :index
@@ -23,6 +24,7 @@ module IsMondayABankHoliday
 
     get '/:country' do |country|
       @next_monday = NextMonday.new(country.to_sym)
+      @country = country
 
       erb :index
     end

@@ -2,7 +2,7 @@
   <head>
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Marvel' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Marvel:400,700' rel='stylesheet' type='text/css'>
     <title> is Monday a bank holiday? </title>
     <script type="text/javascript">
 
@@ -21,7 +21,8 @@
    </head>
    <body>
      <header>
-     is Monday a bank holiday?
+       is Monday a bank holiday?
+       <div class="country <%= @country %>"> in <span><%= @country.capitalize %> </span></div>
      </header>
 
      <p>
@@ -40,15 +41,20 @@
      <% end %>
      </p>
      <footer>
-     <div class="sharing">
-       <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a>
-       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+     <div class="locations">
+     <a href="http://cyprus.ismondayabankholiday.com">Cyprus</a>
+     <a href="http://england.ismondayabankholiday.com">England</a>
+     <a href="http://scotland.ismondayabankholiday.com">Scotland</a>
+   </div>
+   <div class="sharing">
+     <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a>
+     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-     </div>
-     <div class="madeby">
-       Made by <a href="http://twitter.com/despo">@despo</a>
-     </div>
-     <div>
+   </div>
+   <div class="madeby">
+     Made by <a href="http://twitter.com/despo">@despo</a>
+   </div>
+   <div>
      </footer>
    </body>
  </html>
