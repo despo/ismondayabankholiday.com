@@ -97,3 +97,18 @@
    -
     :datetime_field: 2015-06-01
     :description: "Whit Monday (Κατακλυσμός)"
+   -
+    :datetime_field: 2016-03-14
+    :description: "Green Monday (Καθαρά Δευτέρα)"
+   -
+    :datetime_field: 2016-05-02
+    :description: "Orthodox Easter Monday (Δευτέρα του Πάσχα)"
+   -
+    :datetime_field: 2016-06-20
+    :description: "Whit Monday (Κατακλυσμός)"
+   -
+    :datetime_field: 2016-08-15
+    :description: "Assumption Day, (Κοίμησης της θεοτόκου)"
+   -
+    :datetime_field: 2016-12-26
+    :description: "Boxing Day (Δεύτερη μέρα των Χριστουγέννων)"
