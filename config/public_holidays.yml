@@ -33,6 +33,24 @@
    -
     :datetime_field: 2016-03-28
     :description: "Easter Monday"
+   -
+    :datetime_field: 2017-12-25
+    :description: "Christmas Day"
+   -
+    :datetime_field: 2018-01-01
+    :description: "New Year's Day"
+   -
+    :datetime_field: 2018-04-02
+    :description: "Easter Monday"
+   -
+    :datetime_field: 2018-05-07
+    :description: "Early May bank holiday"
+   -
+    :datetime_field: 2018-05-28
+    :description: "Spring bank holiday"
+   -
+    :datetime_field: 2018-08-27
+    :description: "Summer bank holiday"
 
   :scotland:
    -
@@ -71,6 +89,21 @@
    -
     :datetime_field: 2015-12-28
     :description: "substitute for Boxing Day"
+   -
+    :datetime_field: 2017-12-25
+    :description: "Christmas Day"
+   -
+    :datetime_field: 2018-01-01
+    :description: "New Year's Day"
+   -
+    :datetime_field: 2018-05-07
+    :description: "Early May bank holiday"
+   -
+    :datetime_field: 2018-05-28
+    :description: "Spring bank holiday"
+   -
+    :datetime_field: 2018-08-06
+    :description: "Summer bank holiday"
 
   :cyprus:
    -
@@ -115,3 +148,18 @@
    -
     :datetime_field: 2016-12-26
     :description: "Boxing Day (Δεύτερη μέρα των Χριστουγέννων)"
+   -
+    :datetime_field: 2018-01-01
+    :description: "New Year's Day (Πρωτοχρονιά)"
+   -
+    :datetime_field: 2018-02-19
+    :description: "Green Monday (Καθαρά Δευτέρα)"
+   -
+    :datetime_field: 2018-04-09
+    :description: "Orthodox Easter Monday (Δευτέρα του Πάσχα)"
+   -
+    :datetime_field: 2018-05-28
+    :description: "Whit Monday (Κατακλυσμός)"
+   -
+    :datetime_field: 2018-10-01
+    :description: "Independence Day (Μέρα Ανεξαρτησίας)"
