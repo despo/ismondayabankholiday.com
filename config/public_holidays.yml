@@ -51,6 +51,18 @@
    -
     :datetime_field: 2018-08-27
     :description: "Summer bank holiday"
+   -
+    :datetime_field: 2019-04-22
+    :description: "Easter Monday"
+   -
+    :datetime_field: 2019-05-06
+    :description: "Early May bank holiday"
+   -
+    :datetime_field: 2019-05-27
+    :description: "Spring bank holiday"
+   -
+    :datetime_field: 2019-08-26
+    :description: "Summer bank holiday"
 
   :scotland:
    -
@@ -104,6 +116,21 @@
    -
     :datetime_field: 2018-08-06
     :description: "Summer bank holiday"
+   -
+    :datetime_field: 2019-04-22
+    :description: "Easter Monday"
+   -
+    :datetime_field: 2019-05-06
+    :description: "Early May bank holiday"
+   -
+    :datetime_field: 2019-05-27
+    :description: "Spring bank holiday"
+   -
+    :datetime_field: 2019-08-05
+    :description: "Summer bank holiday"
+   -
+    :datetime_field: 2019-12-02
+    :description: "St Andrew's day"
 
   :cyprus:
    -
